@@ -1,0 +1,21 @@
+_id: req_91d49d11c7394eb0bbbc9f6114a45237
+type: Request
+parentId: wrk_786384092d164cb39ce50e8823a9bea9
+modified: 1680695462742
+created: 1680695437826
+url: http://127.0.0.1:8000/api/user/dayslot
+name: Get User Slots
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680695437826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
