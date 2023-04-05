@@ -1,0 +1,21 @@
+_id: req_f9361ae224ef4de9b27c02360d1280c0
+type: Request
+parentId: wrk_786384092d164cb39ce50e8823a9bea9
+modified: 1680695702058
+created: 1680695657598
+url: http://127.0.0.1:8000/api/user/delete-day-available/3
+name: Delete slot
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680695657598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
