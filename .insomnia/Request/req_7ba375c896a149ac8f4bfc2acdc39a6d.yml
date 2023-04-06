@@ -1,0 +1,34 @@
+_id: req_7ba375c896a149ac8f4bfc2acdc39a6d
+type: Request
+parentId: wrk_786384092d164cb39ce50e8823a9bea9
+modified: 1680755388670
+created: 1680755342328
+url: http://127.0.0.1:8000/api/user/register
+name: Signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"first_name":"deepak",
+    	"last_name":"s",
+      "password":"Admin@123",
+    	"confirm_password":"Admin@123",
+    	"mobile_number":"8802673609",
+    	"mobile_country_code":"+91",
+    	"role_id":2 
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680755342328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_b3e6e9427cd34fee9368673b770cc626
+type: Request
+parentId: wrk_786384092d164cb39ce50e8823a9bea9
+modified: 1680755533951
+created: 1680755485415
+url: http://127.0.0.1:8000/api/user/verify/otp
+name: Verify OTP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id":3,
+    	"otp":1234,
+    	"type":"email"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680755485415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

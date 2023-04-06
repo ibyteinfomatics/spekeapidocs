@@ -1,0 +1,29 @@
+_id: req_c7342da668e443ecb42c5c5223d22c2c
+type: Request
+parentId: wrk_786384092d164cb39ce50e8823a9bea9
+modified: 1680755598436
+created: 1680755544258
+url: http://127.0.0.1:8000/api/user/resend/otp
+name: Resend OTP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id":3,
+    	"type":"email"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680755544258
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
