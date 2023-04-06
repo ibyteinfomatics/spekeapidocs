@@ -1,9 +1,9 @@
 _id: req_196c4a2de4344d8c82a9f0f9d256e1ec
 type: Request
 parentId: wrk_786384092d164cb39ce50e8823a9bea9
-modified: 1680754283071
+modified: 1680770639897
 created: 1680695829687
-url: http://127.0.0.1:8000/api/user/add-update-slot-time
+url: "{{ _.local_url }}/api/user/add-update-slot-time"
 name: Add & update Available Slot Time
 description: ""
 method: POST

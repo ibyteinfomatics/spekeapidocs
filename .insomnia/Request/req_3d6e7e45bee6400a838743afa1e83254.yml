@@ -1,9 +1,9 @@
 _id: req_3d6e7e45bee6400a838743afa1e83254
 type: Request
 parentId: wrk_786384092d164cb39ce50e8823a9bea9
-modified: 1680696386166
+modified: 1680770653200
 created: 1680695798168
-url: http://127.0.0.1:8000/api/user/delete-day-slot/7
+url: "{{ _.local_url }}/api/user/delete-day-slot/7"
 name: Delete Available Slot Time
 description: ""
 method: DELETE

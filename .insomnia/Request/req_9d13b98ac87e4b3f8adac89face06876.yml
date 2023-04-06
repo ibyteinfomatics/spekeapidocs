@@ -1,9 +1,9 @@
 _id: req_9d13b98ac87e4b3f8adac89face06876
 type: Request
 parentId: wrk_786384092d164cb39ce50e8823a9bea9
-modified: 1680696350892
+modified: 1680770624138
 created: 1680696257782
-url: http://127.0.0.1:8000/api/user/login
+url: "{{ _.local_url }}/api/user/login"
 name: Login
 description: ""
 method: POST
