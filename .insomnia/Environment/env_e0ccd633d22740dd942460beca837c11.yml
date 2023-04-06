@@ -1,12 +1,12 @@
 _id: env_e0ccd633d22740dd942460beca837c11
 type: Environment
 parentId: env_23f994a2c4f62068d343194a4c4e6316f7159168
-modified: 1680770500988
+modified: 1680771120302
 created: 1680770183493
 name: New Environment
 data:
   local_url: http://127.0.0.1:8000
-  live: https://speke.in
+  live: http://speke.in
 dataPropertyOrder:
   "&":
     - local_url
