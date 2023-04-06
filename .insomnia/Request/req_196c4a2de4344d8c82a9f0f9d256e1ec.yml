@@ -1,10 +1,10 @@
 _id: req_196c4a2de4344d8c82a9f0f9d256e1ec
 type: Request
 parentId: wrk_786384092d164cb39ce50e8823a9bea9
-modified: 1680696377096
+modified: 1680754283071
 created: 1680695829687
-url: http://127.0.0.1:8000/api/user/add-slot-time
-name: Add Available Slot Time
+url: http://127.0.0.1:8000/api/user/add-update-slot-time
+name: Add & update Available Slot Time
 description: ""
 method: POST
 body:
@@ -12,15 +12,15 @@ body:
   params:
     - id: pair_6125a1558c354140a287e148328f2f45
       name: day_id
-      value: "6"
+      value: "2"
       description: ""
     - id: pair_575e39ac5c9d48a4996199e65ecbc921
       name: day_slot_time[0][from]
-      value: 18:00
+      value: 10:00
       description: ""
     - id: pair_062790f28fef42b29d4f6f4c95b768d7
       name: day_slot_time[0][to]
-      value: 20:00
+      value: 12:00
       description: ""
     - id: pair_c676afd36fd144c9aaadd2746d48665b
       name: day_slot_time[1][from]
@@ -29,6 +29,14 @@ body:
     - id: pair_ce51825f441c4816acae94abc2f09474
       name: day_slot_time[1][to]
       value: 16:30
+      description: ""
+    - id: pair_b1bdfbde0573459e8f8eaef414b03e21
+      name: day_slot_time[2][from]
+      value: 15:30
+      description: ""
+    - id: pair_5e8e5b5f8ca0481ea900ebb5e9fc2453
+      name: day_slot_time[2][to]
+      value: 17:30
       description: ""
 parameters:
   - id: pair_5cf449d8eb48444ba476addb931fa24b
@@ -40,7 +48,7 @@ headers:
     value: multipart/form-data
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2MwYTQxYi0zY2FlLTQ0MWEtYjYxNS05MTk0ODYxNzlhZjMiLCJqdGkiOiIzM2MwMjU4NjNkOTI4ODEwZmNhN2NlMDAzNWVlZjU5NWI2MzgwNDRlMWUzMmRmYzhjZWJhM2NjMjdiMGY0M2I0MDA0MGUyZTYzYjExMmQzZiIsImlhdCI6MTY4MDY5NjM1NS44MjM4OTgsIm5iZiI6MTY4MDY5NjM1NS44MjM5MDIsImV4cCI6MTcxMjMxODc1NS44MTMyMTMsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.AqM1u_LTZVS1gIgEpobxLWXOhhwzQHPU2vmcyQATJoJ7U8aVIPYrbJC8EIh08o95CUqmqLIvfvdkM2hsG8Hr-HrwDXxXejcmED2e1hUbXCINlLiMEWBYh0P7TNEnCrKVga9jk-baLb6UnWX48WX8AS7_qLiOcVgekd-ndN6CW6cwDm-QSomZIugsXr4enTFYH878UUmtlb5YXjbU1nd_R3dig0n1egOxbUt07g8qy-jjibD_zW-xdWXtEyugmF7Rxonqk4FP3R5KBVOaOgBrPch0Ue0P69ChgsX9DDxygMOsScLx6IK3Ivwi-5e7EAR-HipuBVVZvI-_3e1cKMjR-IvMg8JmIMdnL3jQG28idh0Jf0rmEcY-5GC4w7WpkQITWx74xiV9CLZiIM5HhRhes5qM3xTfcvZWz_slwpyQw1GfzJzWUz8ljHRTa9ucAXObfyUtAKwwp7b0rZPExl6zys248MoCg9TqBgt6fqu8jEPMMhNBjO8V923f_9XVY886FGq2Oq-tXqzD9IN_Zn5WOhwmeevIg48rsZSXPZz61gsthSYJGRCRkPbwrH4ppOhyLyhIDIOE-8IiB_rbPCYdG_jcTpvjhfUxJgLKCXStHNGX-nx1lxkkGkae8K1HiqlNQH47TqVbuNQmLJQzA2i5aahQ_9ddUZZzm7pNSLFAIV8
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2MwYTQxYi0zY2FlLTQ0MWEtYjYxNS05MTk0ODYxNzlhZjMiLCJqdGkiOiI1ZTUzN2NkNjViY2JhZTI5ODhhZmFlMWRmYjhlNTdkNjE4MzRiMGQ4ZDcyMzIzNGY2OWUzMTdkNzlhN2EyNDc1YjA2NTdmYzcwYmJmNmRhMiIsImlhdCI6MTY4MDc1Mzc0NC4xNzA1NjQsIm5iZiI6MTY4MDc1Mzc0NC4xNzA1NjYsImV4cCI6MTcxMjM3NjE0NC4xNTQ0MzgsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.mFS8ASBHsM4JZqm9vWaRVGP9rd7k0480QFOIbuqDsURPJQMAcT5UTC3YttBK4EIXEqrEc7ofgvzHxaDoycq-23tO1EjM1EJGGxPtkoJkuNlIM7kHffuvfuwBa8uclIu8yRsjfwUOP1WqWZx6m_g7di4bHwwvHDLMk00pKE7XdNOTFnMdMJPi8lK1Eo-6BQdix-bpmcDKCXSV4Rr1Ne3FHEThuA0LIM5nW4vBVsmqIk7xHUg_4glm7xyo_uC4AuSzGJBehulwXP2t1DMNIW8n4zH-V81m57RVadVO1qcV3bNz2mxaNQ7UO-YBdPIFVNr8snAq3uurMVN2LTfiYc8lb7niCERLKq6c8Yj3a4Si_S4ndKhJaPnf2Oc03BmCvCqnUQqa9P-1y3f_qRaAOjxmpC1sy5_jaFp7sHWuBrea-0_SYZt-6ZW1RRLLCg0dnyIiQGT1JOnWGU-Fzx8YO0nx8WTU9ZE9ArCLSbk0K67ROHsSPzsIkLMry9ufj6p70kLZcxBhKgyDfpuV2rThXgsXrfp0bGbR6cvtbS0ohtHoDjLgV7N6CY1MjGOa8HB4UDFjsP3_azGLiXHZ2CaWOLDRhDrl0Sm-fXh5IZ0Cmy06_4UVUn17ozT9wmigJAuM83Cy0oH3rxwZCqk_EfEr_yR3oSVa9IaWqJoOI5J9auHaVVY
 metaSortKey: -1680695829687
 isPrivate: false
 settingStoreCookies: true
