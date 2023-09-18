@@ -1,0 +1,30 @@
+_id: req_35d6520087ed4e2aa740984ba7422adf
+type: Request
+parentId: fld_764bf0773123469798c940340914d9ff
+modified: 1675838572307
+created: 1675401489253
+url: localhost/spekeapp/public/api/user/register
+name: User Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"mobile_number":"8802673606",
+    	"mobile_country_code":"+91",
+    	"role_id":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675401489253
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

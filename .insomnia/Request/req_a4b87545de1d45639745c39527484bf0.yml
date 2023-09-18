@@ -1,0 +1,34 @@
+_id: req_a4b87545de1d45639745c39527484bf0
+type: Request
+parentId: fld_764bf0773123469798c940340914d9ff
+modified: 1675768495218
+created: 1675406849951
+url: http://localhost/spekeapp/public/api/mobile/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_dad5a1e5ffd94fed86a4756fa1cab75b
+      name: mobile_number
+      value: "8802673613"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1675406849951
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

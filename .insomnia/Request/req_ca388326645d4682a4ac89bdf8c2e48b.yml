@@ -1,0 +1,42 @@
+_id: req_ca388326645d4682a4ac89bdf8c2e48b
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1673938884907
+created: 1668588191313
+url: localhost/spekeapp/public/api/user/update/photo?_method=PUT
+name: Upload Photo
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_986a40a2d3c3482ab4c79eeb37a31d2c
+      name: profile_photo
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Deepak Saini\Downloads\Gull_portrait_ca_usa.jpg
+    - id: pair_a7069f858c4e45b4ae9c7f414762ba0b
+      name: hello
+      value: hi
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e4ef242d11d34284aff24ea576b94e5c
+  - id: pair_63ce7801a4334c708ee114784787fec8
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2MwYTQxYi0zY2FlLTQ0MWEtYjYxNS05MTk0ODYxNzlhZjMiLCJqdGkiOiI4MDkxZTE1NTJhNTUxNjE1ODk3ZDM2YzM5N2EyOGQzZDIwOTA1NGViYzU4OTE3NzI4OGRjNjBmMmM1MDNmOTU2ZTkzYTgzY2FmYzIzYzA1NyIsImlhdCI6MTY2OTAyMjEyMi41MTY0NTgsIm5iZiI6MTY2OTAyMjEyMi41MTY0NjMsImV4cCI6MTcwMDU1ODEyMi41MDU5NDksInN1YiI6IjEiLCJzY29wZXMiOltdfQ.AuPh8B1qI58UeKU4T1x7mOKEnqR9kBtNKE1EhJqwCryvYz1tgoeCgo1S1lPGRvR0vCXEAIdhscpi_tfbz1Tl6nMn1R_YMkOt_lRH_9a_eu_FbrHBqjajWThmcc3KYMyb5ix3OrkEw2JgZte8qqkoE_3MGGser0vpTUxmR8eK7y7w4ihx50dhuhFQqkQxH_jifQrtaOWYrm9Bn4w1dmagQU4KsgXA9zthFLm8TowidaH4YSWGq-bjevFU7XfBUQ8fCitH00PqbDotr4yMJHpInCVFU1qcGhxAc81ZVgsb75dPqdo8l1slh8JYl87L0XqxzEz8tmvwyJK48YGAHEifiOvQ-fNCl4aQtJSu2XZRM9o_3TnKA7DIwhSSqcuZy0zIcNzHe2hnKHF9iWW6sdrC9WDj9JfgrNhkT0oxCqfJdQYCz_SjDnpSyFEZUGtPxUHhzo9tZsafuQEY5MUwZbvSW6BqAJSvLwIUbG1wJ4VWeA5w15zJPQ-eaydxxaYGeBa4kacRgy-lSH62NeRMjonyNa3mwh29RYDv2oug8nfIuR3yeChE-4DY25L5Nn-zlMDVWL7Tc6XHa7eU6k-y6MlffEA61i-P-ohP6Yn817f0s5MjGy03T3NGYg3VC0CTadazouPQLsiZFeuBTmzfL6UwhahKDwxwMC892Ab_fZaKK3g
+metaSortKey: -1668588191313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

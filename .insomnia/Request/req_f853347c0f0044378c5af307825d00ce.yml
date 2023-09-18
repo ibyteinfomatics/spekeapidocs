@@ -1,0 +1,21 @@
+_id: req_f853347c0f0044378c5af307825d00ce
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1674492983589
+created: 1674492954612
+url: http://localhost/spekeapp/public/api/get/appointment/types
+name: Get All Appointment Types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674492954612
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

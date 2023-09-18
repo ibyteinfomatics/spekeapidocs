@@ -1,0 +1,35 @@
+_id: req_1a411284ab584cd5ad4f7a84ce43c35a
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1695036108177
+created: 1664345076191
+url: speke.in/api/user/register
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"first_name":"deepak",
+    	"last_name":"s",
+      "password":"Admin@123",
+    	"confirm_password":"Admin@123",
+    	"mobile_number":"8802671230",
+    	"mobile_country_code":"+91",
+    	"email":"deepak1121@yopmail.com",
+    	"role_id":2 
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668538879790
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

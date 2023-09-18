@@ -1,0 +1,21 @@
+_id: req_3f55a0b1351742c585f120e5adf77620
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1673944167507
+created: 1673944133240
+url: http://localhost/spekeapp/public/api/get/languages
+name: Get All Language
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1673944133240
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

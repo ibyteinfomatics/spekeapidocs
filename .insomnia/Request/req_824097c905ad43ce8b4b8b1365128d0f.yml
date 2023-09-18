@@ -1,0 +1,35 @@
+_id: req_824097c905ad43ce8b4b8b1365128d0f
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1675406762212
+created: 1674539310788
+url: localhost/spekeapp/public/api/user/update?_method=PUT
+name: Update Counsellor profile
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_544dba66b536447d85e77d146162e4b3
+      name: bio
+      value: lorem
+      description: ""
+    - id: pair_9ce59dd6a31a4dd4b096bae756f5db58
+      name: timezone
+      value: Asia/Kolkata
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2MwYTQxYi0zY2FlLTQ0MWEtYjYxNS05MTk0ODYxNzlhZjMiLCJqdGkiOiJkZjVmZjI3ZmYzYjg2OWZiNzdiNmRmZTI4YWE3MWJmMWZmZTc0MzU5MDU3OTQxY2NiNDAxMjg1OWEzNDA2NjFlNjQ3NGYwNzQxODM4M2ZkOCIsImlhdCI6MTY3NTQwNjczNy43ODc4OCwibmJmIjoxNjc1NDA2NzM3Ljc4Nzg4NiwiZXhwIjoxNzA2OTQyNzM3Ljc3NDczMiwic3ViIjoiMyIsInNjb3BlcyI6W119.ghzD03-uyehGJR3Vhftdv0U7dka9jznIFt_CfJQ0SYXTdvoN6YUeJycK8oKQdkubAmj2MhYeKEjn2n8Sq88cQNMu0xap-KwUI9XzK3cemQrky9wsZxtYMKjVkYvOSYJka_Td49vrjc6lDehS2onPspTGrxOvERy9JJ1NNZf_zNIv2vkyZcBhVkn01srEPe7F8OQQ3JXDboGTMyjq15aODE-xcJNzwJ0KeT6eP3oWRgGMeQpqn_QNOnrEUVw9XA1822lWTbirl1jXvD-auz5bY_lcQuuvlGQXgvcVAHyzGvTXDTCo_A2QooP2e0DE9cx72Yq_GcM5qiCneYQDoyB6jeMy9Yu9Fpl6N1isYVQV1UEtsbRW_vzh6Hy_a6cP02T46c-3PUkAVslrF6bkhxtqY1NgyiOxFhyGz96nNZQd7DKgf6NjhiflmJnLEWy8Ne-fEMQ5WoalpASddE9KMK0RmPZ782_L3uXoA3THsxu7_dXr2XTzbmsByVAoEqz4IUre9gUVdKlHDuamKwaLixtf_4gUtOK3xT9YuvSuBcCvYwjtLQmsb20-PTD0Ny3SoVMHWx3GIfn9B5WoO7vNbvH4BIt6Hh9UxJPYLdmrB4d4thZwHA6cqHm0UwahexNc2XDmkDliHP2v52Y03OuHOHx6r4uXMHXCBJN_2lByvwPfSLw
+metaSortKey: -1674539310788
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

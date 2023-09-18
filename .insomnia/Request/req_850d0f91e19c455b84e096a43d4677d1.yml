@@ -1,0 +1,29 @@
+_id: req_850d0f91e19c455b84e096a43d4677d1
+type: Request
+parentId: wrk_a892259d22bb4154ae79042408f9d958
+modified: 1678692140834
+created: 1678692109288
+url: https://api.coacherly.com/api/search/listing
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_323110a74b9b402ca01f2a4babe4c7d5
+      name: order
+      value: asc
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1678692109288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

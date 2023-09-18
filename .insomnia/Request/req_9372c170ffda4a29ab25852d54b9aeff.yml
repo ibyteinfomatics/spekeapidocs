@@ -1,0 +1,116 @@
+_id: req_9372c170ffda4a29ab25852d54b9aeff
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1695036277834
+created: 1668496522665
+url: speke.in/api/user/update?_method=PUT
+name: Update User
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: profile_photo
+      value: ""
+      id: pair_0cb4cddb51774283a7d34d125bafe435
+      type: file
+      fileName: C:\Users\Deepak Saini\Downloads\Sample-png-image-5mb.png
+    - id: pair_db5976ea293c434ea5e5984db38771ab
+      name: first_name
+      value: Deepak
+      description: ""
+    - id: pair_e9e9bccbb3e44b52ae4b08439125cbd3
+      name: dob
+      value: 23-03-1992
+      description: ""
+    - id: pair_ace8ebc253814f3a8f7fe548078ef8fc
+      name: last_name
+      value: jindaal
+      description: ""
+    - id: pair_32223896ef5c425aa5a2c8d032339fcf
+      name: latitude
+      value: "20.1154673"
+      description: ""
+    - id: pair_3207104750074ce696ec984d3918079e
+      name: gender
+      value: male
+      description: ""
+    - id: pair_5853d2ef0e754bdc8ff40bd624122cb3
+      name: bio
+      value: Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+        roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is
+        reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
+        "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+        exact original form, accompanied by English versions from the 1914
+        translation by H. Rackham.
+      description: ""
+    - id: pair_381407ef52a440a694e271c7afe2fc97
+      name: primary_speciality
+      value: 1,2
+      description: ""
+    - id: pair_6bad881cd98c4923a152832d55dc3383
+      name: secondary_speciality
+      value: 4,5,6
+      description: ""
+    - id: pair_3744a7c5eb3346ec9614ec2538c81bc7
+      name: approaches
+      value: 1,2,3
+      description: ""
+    - id: pair_8d06afcfae7a438ba1d02932886159b4
+      name: appointment_types
+      value: "1"
+      description: ""
+    - id: pair_0edff825f7f74a9a88d7d338357e53a0
+      name: languages
+      value: 1,2
+      description: ""
+    - id: pair_f54d01f0556142289452c1de540665d4
+      name: fees_standard
+      value: "100"
+      description: ""
+    - id: pair_43f8222a011f4a2abcefb24ad34bec80
+      name: fees_teenager
+      value: "100"
+      description: ""
+    - id: pair_0c6ba644765441458b2c925e2fbc082c
+      name: fees_child
+      value: "100"
+      description: ""
+      disabled: false
+    - id: pair_65ead514a66c4314bbf4f64ef17bdf0e
+      name: fees_couple
+      value: "100"
+      description: ""
+    - id: pair_8f2ab59c079245b993d6a29932340cd5
+      name: fees_group
+      value: "100"
+      description: ""
+    - id: pair_1e9c702f542f445ab28fb0806e5ae372
+      name: mobile_country_code
+      value: "+91"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2MwYTQxYi0zY2FlLTQ0MWEtYjYxNS05MTk0ODYxNzlhZjMiLCJqdGkiOiIzNTE5NDNlNzY0NTRlZjUxZTU4YjkwNTkwNjlkNzNkYjc3MTQ1MGNhM2QzMTVmYTgxYmYwZTI1ZDgyMmViM2JlODhhZTNjODZkOTNjNWU4ZiIsImlhdCI6MTY5NTAzNjIwOC41MTcxNzIsIm5iZiI6MTY5NTAzNjIwOC41MTcxNzYsImV4cCI6MTcyNjY1ODYwOC40NDczMjQsInN1YiI6IjE0NCIsInNjb3BlcyI6W119.IdTRc91DcdnthC0AFSh-o5aoMZkR6-oySMeCisWSaw1B9EWJmI9-B2FQzOq9n3Wp_jtMOSm9gW9YLciPjWP_yEZTqLuzR6YN6vvP2Fxrr9OtCpPmO3_cJdHvGZc1IAhKqcVp_lBLXX-L9wJg564_mlHWHeZKB-sP_4CHBCUTFfAq-rrgl536lAiIf8ad3Vk7heN8DVvkImM0s8M5zFTuItnoeU4M7AjESv0kILoKcmcZDq4uXtZKixysttTdDi7kBvRjzRWgBQSzdeZOKxYj9qOUL6jk9TPGvXKeLd8tQp0U6ntrGD0MddiTxLsejf1y2KceytO0LO0JDVR8VoNVwRGlwc98IYGyV4GncLYXYNXQEnNJQukIGOhcdB4lPTWEOkwrMGlHSkyZkJT2sfg2deIhCGc7wpHn_ExvC-4Ze-kGIwGu-MvxnmTbmB9P1DbV7q3UCjMLJBoZAnu4uyKp5l0UeDt8SNhDGIMC9jhEvT93YipupdQCk1vmsMTEdFXjXbmRehym3N6tZ-XM6oTj3Ne4-bnzm0ExPrQzqKWyoyzacyCrB-LdWNMFLrvPNzi4i6lC_HUNmwC7_0w2dkCiEQGddRjwRzo2JFdM4ncR4k2_BbYw82rvHn6woTaKJmySXxi1lfXHaUiKc6R5F-t-TqLFBLirGee_7xB-_UKgmBs
+metaSortKey: -1668101504687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

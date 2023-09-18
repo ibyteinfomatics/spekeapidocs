@@ -1,0 +1,38 @@
+_id: req_bf8c006326314f899e22bf288967258f
+type: Request
+parentId: fld_764bf0773123469798c940340914d9ff
+modified: 1675398391392
+created: 1675397589689
+url: "https://admin.smooshi.ae/user/signup "
+name: smooshi-signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-2
+     {
+      "latitude" : "28.6248371328",
+      "mobile_number" : "",
+      "device_type" : "2",
+      "email" : "ibyteinfo219@gmail.com",
+      "password" : "",
+      "login_address" : ", , Sector 63, Noida, 201301, UP,  India",
+      "loginType" : "2",
+      "longitude" : "77.3785436195",
+      "country_code" : "+91",
+      "device_token" : "evsPnwiuSUb1pINM7dmEjp:APA91bGtny_mk1dlGCX5YSFIbn3OKvPAWHnV5DNgWkr1bX82cg2yyBZ47avu24QUCyuiRKY4W4bRZytX88m-B7PEj7P5pweVS41L6cubrUB9RcMS6piN4ZEk6B-OsSnlMQkwcr8CPPNt",
+      "social_id" : "115236537460389026078"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675397589689
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

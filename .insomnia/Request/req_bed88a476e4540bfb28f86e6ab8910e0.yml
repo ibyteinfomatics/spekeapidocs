@@ -1,0 +1,29 @@
+_id: req_bed88a476e4540bfb28f86e6ab8910e0
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1674639487832
+created: 1668538879740
+url: http://localhost/spekeapp/public/api/user/resend/otp
+name: Resend Otp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id":3,
+    	"type":"email"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668102541230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

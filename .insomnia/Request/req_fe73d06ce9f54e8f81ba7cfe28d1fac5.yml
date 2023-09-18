@@ -1,0 +1,31 @@
+_id: req_fe73d06ce9f54e8f81ba7cfe28d1fac5
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1695036207952
+created: 1668103577723
+url: speke.in/api/user/verify/otp
+name: Verify Otp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id":144,
+    	"otp":1234,
+    	"type":"mobile"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1c77d10a594b4bf6822c358b2011e217
+authentication: {}
+metaSortKey: -1668103577723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

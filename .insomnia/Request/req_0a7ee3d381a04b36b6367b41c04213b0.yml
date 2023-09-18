@@ -1,0 +1,30 @@
+_id: req_0a7ee3d381a04b36b6367b41c04213b0
+type: Request
+parentId: fld_764bf0773123469798c940340914d9ff
+modified: 1675768450175
+created: 1675401883155
+url: localhost/spekeapp/public/api/user/verify/otp
+name: Verify Otp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id":7,
+    	"otp":1234,
+    	"type":"mobile"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675401883155
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

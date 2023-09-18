@@ -1,0 +1,21 @@
+_id: req_fc8bd31d4de346b996063365db1f2485
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1673938893406
+created: 1668112552270
+url: localhost/spekeapp/public/api/user/get/roles
+name: Get Roles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668538879840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
