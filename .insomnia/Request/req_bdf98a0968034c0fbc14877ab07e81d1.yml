@@ -1,0 +1,23 @@
+_id: req_bdf98a0968034c0fbc14877ab07e81d1
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1695296909255
+created: 1695296862605
+url: localhost/spekeapp/public/api/get/countries
+name: get Countries
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695296862605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

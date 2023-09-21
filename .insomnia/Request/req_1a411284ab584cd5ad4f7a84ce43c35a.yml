@@ -1,9 +1,9 @@
 _id: req_1a411284ab584cd5ad4f7a84ce43c35a
 type: Request
 parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
-modified: 1695036108177
+modified: 1695276979747
 created: 1664345076191
-url: speke.in/api/user/register
+url: localhost/spekeapp/public/api/user/register
 name: Register
 description: ""
 method: POST

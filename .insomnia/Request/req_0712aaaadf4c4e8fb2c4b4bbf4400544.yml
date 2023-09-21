@@ -1,9 +1,9 @@
 _id: req_0712aaaadf4c4e8fb2c4b4bbf4400544
 type: Request
 parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
-modified: 1679918596479
+modified: 1695277463766
 created: 1668544201264
-url: speke.in/api/user/login
+url: localhost/spekeapp/public/api/user/login
 name: Login
 description: ""
 method: POST
@@ -18,7 +18,7 @@ authentication:
   type: basic
   useISO88591: false
   disabled: false
-  username: deepak@yopmail.com
+  username: deepak1121@yopmail.com
   password: Admin@123
 metaSortKey: -1668544201264
 isPrivate: false

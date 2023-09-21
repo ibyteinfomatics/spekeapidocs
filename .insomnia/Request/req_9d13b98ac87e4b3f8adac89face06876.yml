@@ -1,15 +1,19 @@
 _id: req_9d13b98ac87e4b3f8adac89face06876
 type: Request
 parentId: wrk_786384092d164cb39ce50e8823a9bea9
-modified: 1680771090663
+modified: 1695109360991
 created: 1680696257782
 url: "{{ _.live }}/api/user/login"
 name: Login
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: basic
   useISO88591: false

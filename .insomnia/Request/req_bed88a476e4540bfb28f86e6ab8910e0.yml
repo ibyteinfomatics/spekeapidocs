@@ -1,7 +1,7 @@
 _id: req_bed88a476e4540bfb28f86e6ab8910e0
 type: Request
 parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
-modified: 1674639487832
+modified: 1695292117243
 created: 1668538879740
 url: http://localhost/spekeapp/public/api/user/resend/otp
 name: Resend Otp
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"user_id":3,
+    	"user_id":1,
     	"type":"email"
     }
 parameters: []

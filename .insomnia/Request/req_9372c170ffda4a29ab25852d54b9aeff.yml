@@ -1,9 +1,9 @@
 _id: req_9372c170ffda4a29ab25852d54b9aeff
 type: Request
 parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
-modified: 1695036277834
+modified: 1695282627976
 created: 1668496522665
-url: speke.in/api/user/update?_method=PUT
+url: localhost/spekeapp/public/api/user/update?_method=PUT
 name: Update User
 description: ""
 method: POST
@@ -99,6 +99,10 @@ body:
       name: mobile_country_code
       value: "+91"
       description: ""
+    - id: pair_7249a60ee5e4499bacbe62df782cffa6
+      name: ""
+      value: ""
+      description: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -106,7 +110,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2MwYTQxYi0zY2FlLTQ0MWEtYjYxNS05MTk0ODYxNzlhZjMiLCJqdGkiOiIzNTE5NDNlNzY0NTRlZjUxZTU4YjkwNTkwNjlkNzNkYjc3MTQ1MGNhM2QzMTVmYTgxYmYwZTI1ZDgyMmViM2JlODhhZTNjODZkOTNjNWU4ZiIsImlhdCI6MTY5NTAzNjIwOC41MTcxNzIsIm5iZiI6MTY5NTAzNjIwOC41MTcxNzYsImV4cCI6MTcyNjY1ODYwOC40NDczMjQsInN1YiI6IjE0NCIsInNjb3BlcyI6W119.IdTRc91DcdnthC0AFSh-o5aoMZkR6-oySMeCisWSaw1B9EWJmI9-B2FQzOq9n3Wp_jtMOSm9gW9YLciPjWP_yEZTqLuzR6YN6vvP2Fxrr9OtCpPmO3_cJdHvGZc1IAhKqcVp_lBLXX-L9wJg564_mlHWHeZKB-sP_4CHBCUTFfAq-rrgl536lAiIf8ad3Vk7heN8DVvkImM0s8M5zFTuItnoeU4M7AjESv0kILoKcmcZDq4uXtZKixysttTdDi7kBvRjzRWgBQSzdeZOKxYj9qOUL6jk9TPGvXKeLd8tQp0U6ntrGD0MddiTxLsejf1y2KceytO0LO0JDVR8VoNVwRGlwc98IYGyV4GncLYXYNXQEnNJQukIGOhcdB4lPTWEOkwrMGlHSkyZkJT2sfg2deIhCGc7wpHn_ExvC-4Ze-kGIwGu-MvxnmTbmB9P1DbV7q3UCjMLJBoZAnu4uyKp5l0UeDt8SNhDGIMC9jhEvT93YipupdQCk1vmsMTEdFXjXbmRehym3N6tZ-XM6oTj3Ne4-bnzm0ExPrQzqKWyoyzacyCrB-LdWNMFLrvPNzi4i6lC_HUNmwC7_0w2dkCiEQGddRjwRzo2JFdM4ncR4k2_BbYw82rvHn6woTaKJmySXxi1lfXHaUiKc6R5F-t-TqLFBLirGee_7xB-_UKgmBs
-metaSortKey: -1668101504687
+metaSortKey: -1695282389362
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

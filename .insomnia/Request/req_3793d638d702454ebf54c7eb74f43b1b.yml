@@ -1,0 +1,53 @@
+_id: req_3793d638d702454ebf54c7eb74f43b1b
+type: Request
+parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
+modified: 1695294343337
+created: 1695282389262
+url: localhost/spekeapp/public/api/user/update?_method=PUT
+name: Update User Profile In row json format
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"primary_speciality":"1,2",
+    	"secondary_speciality":"4,5,6",
+    	"approaches":"1,2,3",
+    	"appointment_types":"1",
+    	"languages":"1,2",
+    	"fees_standard":100,
+    	"mobile_country_code":"+91",
+    	"first_name":"Deepak",
+    	"last_name":"Saini",
+    	"dob":"23-01-1992",
+    	"gender":"male",
+    	"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    	"experiences":[
+    		{"name":"Ibyte Infomatics","from":"2021-01-01","to":"2022-01-01","designation":"Fresher"},
+    		{"name":"Droidlar Infomatics","from":"2023-01-01","to":"2023-09-01","designation":"Associate Engineer"}
+    	],
+    	"education" : [
+    		{"degree" : "B.tech","institute_name" : "Delhi University","passing_year":"2000"}
+    	],
+    	"awards" : [
+    		{"name":"Best Coach","description" : "Best coach in delhi ncr to treat anxity","year":2012}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YTJmYTU1ZS1mMWYzLTQxNWItYTE5YS00YTgyOGViNWViN2EiLCJqdGkiOiI5ODQ4ZmNlODk3YzdkMzQ2YzgxM2IwNDljYTAyMzk2NzVjN2NlM2NjMGJjOWM4MWNiMmRhYzhiYjQ5OWY0YTliNmNmOTIxNjI2ZjJjYzFkMiIsImlhdCI6MTY5NTI5NDMyMi42OTQ5NywibmJmIjoxNjk1Mjk0MzIyLjY5NDk3MSwiZXhwIjoxNzI2OTE2NzIyLjY5MTc2Miwic3ViIjoiMSIsInNjb3BlcyI6W119.Mhjx2bTn0eo_vvRC4R-B3VnGKcuj09xklzBLu155lsW4Ov78Nb25aeGC-3nr3Sdwxp0iKixUG3rQlWgoYXKMhQTtkxo9DrQ-T3zu49dRukZ_FYW2oGFcNWVJDRAJvghvgo9tlPSMGXDX0VadRg4lU5jBmKJiZzolGjBJX2XW4Zv6DPCJq7gF4uUsocAi0EW2pIYR_F5anXJ_rFtZimoPk3h5cJIxLHqDENktZ73IhJ1LB6t5ipGHhh4PUxZ7NCUKcrtUizYUk1tZNNOpyaspmMImXk5lNzLAzTTt8DfyAM9w-AVCMUcs_VQD8XcWaqBvMq6i2GgDsWWEeBHwAlNl-M5nzSpP2VZJ6Iz3LkVAT5g0e_b9UrBjzT0ENZDGPMJwQoSzv277UVw94q9vTu1XiX9Y_z4bw1dTG6wGV6mernJ2ilYHH1kws1bUComh7DtDfZVzz1_Ihwd0jI2OSvdiXpSOi7VcQ2IwfO-IH4BDnxupB5lLM2PMjS2PuSdMssTvbcTZzcOhrB6R4vkvZQkXEj0i5g7qcd1UjBRqNDA-aNMg_LntghI2k9aFgZjjlgsY8RlK8FMEpMfAMqF8cbsKkLtwCeMEpUf9FxG7VOs43aa6E4rpPaAwUHOoaK5OKXJeHeA7y8ycwZ6dDEsgQDFf-_8VZLwmcgMM3iwLydaRxk0
+metaSortKey: -1695282389262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

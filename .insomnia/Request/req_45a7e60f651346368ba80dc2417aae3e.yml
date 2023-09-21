@@ -1,32 +1,31 @@
-_id: req_824097c905ad43ce8b4b8b1365128d0f
+_id: req_45a7e60f651346368ba80dc2417aae3e
 type: Request
 parentId: fld_b1ba046e79274bd1a02e2e642a1dfeca
-modified: 1695278374724
-created: 1674539310788
-url: localhost/spekeapp/public/api/user/update?_method=PUT
-name: Update Counsellor profile
+modified: 1695282469947
+created: 1695279659397
+url: localhost/spekeapp/public/api/user/update/experience
+name: Update Experiences
 description: ""
 method: POST
 body:
-  mimeType: multipart/form-data
-  params:
-    - id: pair_544dba66b536447d85e77d146162e4b3
-      name: bio
-      value: lorem
-      description: ""
-    - id: pair_9ce59dd6a31a4dd4b096bae756f5db58
-      name: timezone
-      value: Asia/Kolkata
-      description: ""
-      disabled: false
+  mimeType: application/json
+  text: >-
+    {
+    	"experiences":[
+    		{"name":"Ibyte Infomatics","from":"2021-01-01","to":"2022-01-01","designation":"Fresher"},
+    		{"name":"Droidlar Infomatics","from":"2023-01-01","to":"2023-09-01","designation":"Associate Engineer"}
+    	]
+    }
 parameters: []
 headers:
   - name: Content-Type
-    value: multipart/form-data
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YTJmNDJlMy0yYzZlLTRjYTctOWMyMS1kODNjZGZmZDIxZDgiLCJqdGkiOiI0ODBlNWYzMDI4NzA1Y2I1MDcwMWFkZTNjZDFiY2U3MzJlNzgwNDdkMmY1NmU4MWI0MjMyMzhkZjJiYzljODBmNGY1YTBmZmNhMWNmZWYyZCIsImlhdCI6MTY5NTI3Nzg1MC42MzczNzksIm5iZiI6MTY5NTI3Nzg1MC42MzczODIsImV4cCI6MTcyNjkwMDI1MC42MzI3NjgsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.ZHxfttTiIaIqDygvOjCNZ5R_eA-cP_FUXFqrf_JVwFHF95A_p90wOYMOPLBrObG77VCtIw0ISjE4r6ahBpcNvtJ85Vw9vG7r3aIsACT13ClD7lUuI6R0dtxv5bbyfD6UDnSA5flL2BoTFD_p2D2BaCdKX__qHo6UoX9vpfKJLroR0DVWlpdtI6aiixd2qSjSk82qdvpFpbcw_ofBaKVHf0txRjWeq2zOXJ1NU-0cURiiMZzcpDKj35aF3t8limEbNfWNNQlRL7iVCmSIDDjUuPOsNSLnxGkj6w5Z7XHQA6ps6TErUaZLIFH1J-nooWujnNXfaLVUb4nQyVRSPCKemzY-U7jAOEpnHmOx629_RUIwVujUuQ48T-Vr9kuLFA9BRDKqyj9RBK0TDT7I8j1jsc8al_RkUDZ9g1zD3iNo9N6Hx5RVDzNn8ZDPOuK_0AeEg4_ppKAHyXuCWh4ZWqLr270heM8UfPCOSQsbL9eOPYMEMjha6BQpZuW1fdqmDt0T4tEwEIiTyoXBxLe1HcXdhGm0m0_yOmpA1jFbVm0DUJmPFRchHalCHHB9pMTl5lY-7B6x-WMqALzpHINYg-92Wf_Fv4wgqAhvEUoyfJyzRdpUDcjZqJdv6hl4rgeVDcgVLs99_pbFnYJXmbUsZQm0s2JV7Y6PSmJ8blyGWweecTQ
-metaSortKey: -1674539310788
+metaSortKey: -1695279659397
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
